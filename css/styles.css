@@ -45,6 +45,10 @@ body{
 .d-blue{
     color:var(--dark-blue__head);
 }
+p{
+    font-size:13.5px;
+}
+
 
 /* 
 !Head Styles 
@@ -75,22 +79,22 @@ body{
 .card{
     display:flex;
     flex-direction:column;
-    padding: 1.5em;
-    gap:1.2em;
+    padding: 1.5em 1.3em;
+    /* gap:1.2em; */
     background-color: #fff;
     border-radius:5px;
     box-shadow:
         0 2.5px 5.4px rgba(0, 0, 0, 0.062),
         0 30px 27px rgba(0, 0, 0, 0.068);
 }
-
+.card p{
+    margin: .7em 0 2.5em 0;
+    line-height:1.7;
+}
 img{
     align-self: flex-end;
 }
 
-p{
-    font-size:13.5px;
-}
 
 /* 
 !Card Styles 
@@ -125,6 +129,6 @@ p{
         padding: 2em;
     }
     .card{
-        max-width:340px;
+        max-width:300px;
     }
 }
